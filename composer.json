@@ -1,0 +1,26 @@
+{
+    "name": "skk321/urlscanner",
+    "description": "Scan urls form a csv file and report inaccessible urls",
+    "keywords":["url", "scanner", "csv"],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~5.0",
+        "phpunit/phpunit": "~4.3"
+    },
+    "suggest":{
+    	"league/csv":"~6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "skk321",
+            "email": "lingdu332@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload":{
+    	"psr-4": {
+	    "Skk321\\UrlScanner\\":"src/"
+	}
+    }
+}
