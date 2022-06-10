@@ -4,7 +4,7 @@
     "keywords":["url", "scanner", "csv"],
     "require": {
         "php": ">=5.4.0",
-        "guzzlehttp/guzzle": "~5.0",
+        "guzzlehttp/guzzle": "~6.5",
         "phpunit/phpunit": "~4.3"
     },
     "suggest":{
